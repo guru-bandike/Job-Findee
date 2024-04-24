@@ -1,0 +1,24 @@
+{
+  "name": "job-findee",
+  "version": "1.0.0",
+  "description": "A comprehensive job portal website that seamlessly connects recruiters with job seekers, offering a user-friendly platform for career advancement",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guru-bandike/Job-Findee.git"
+  },
+  "author": "Guru Bandike",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guru-bandike/Job-Findee/issues"
+  },
+  "homepage": "https://github.com/guru-bandike/Job-Findee#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
