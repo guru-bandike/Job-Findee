@@ -1,5 +1,5 @@
-// Node Core Modules
+# Node Core Modules
 node_modules
 
-// VS Code
+# VS Code
 .vscode
