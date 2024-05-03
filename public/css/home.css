@@ -1,0 +1,40 @@
+
+/* Main Container */
+
+.main-container {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+/* Search Box */
+
+.search-box {
+  width: 40vw;
+  color: black;
+  font-size: 5vw;
+  font-family: 'Kosugi Maru';
+  position: absolute;
+  background-color: #d7dedc;
+  border: none;
+  border-bottom: 3px solid;
+  outline: none;
+  z-index: 1;
+  top: 60%;
+  left: 1%;
+}
+
+/* Model  */
+
+.model-wrapper {
+  width: 100%;
+  margin-top: 3vh;
+  position: relative;
+  background-color: #d7dedc;
+  border-radius: 10px;
+}
+.model-wrapper img {
+  width: 100%;
+}

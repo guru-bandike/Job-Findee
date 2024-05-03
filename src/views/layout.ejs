@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen Dots:wght@400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend Mega:wght@500&display=swap" />
+    <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header-container">
+      <nav class="navbar">
+        <a href="">
+          <img class="logo" alt="" src="./logo.png" />
+        </a>
+
+        <div class="nav-menu-wrapper">
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="">Jobs</a>
+            </li>
+            <li class="nav-item">
+              <a href="">Jobseeker</a>
+            </li>
+            <li class="nav-item">
+              <a href="">Recruiter</a>
+            </li>
+          </ul>
+          <div class="auth-wrapper">
+            <a href="">Login</a>
+            <a href="">Sign Up</a>
+          </div>
+        </div>
+      </nav>
+      <button class="navbar-toggler" type="button" onclick="toggleNavbar()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </button>
+    </header>
+
+    <%- body %>
+
+    <script src="./js/layout.js"></script>
+  </body>
+</html>
